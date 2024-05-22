@@ -1,0 +1,23 @@
+1. ¿Qué es la relación de asociación entre clases?
+La relación de asociación es una conexión estructural que representa cómo dos clases están relacionadas entre sí. Es la forma más general de relación entre clases y se usa para mostrar que un objeto de una clase interactúa con un objeto de otra clase.
+
+Características:
+
+Bidireccionalidad: La asociación puede ser bidireccional, donde ambas clases pueden conocer a la otra, o unidireccional, donde solo una clase conoce a la otra.
+Cardinalidad: Especifica el número de instancias de una clase que pueden estar asociadas con una instancia de otra clase. Por ejemplo, uno a uno, uno a muchos, muchos a muchos.
+
+2. ¿Qué es la relación de agregación entre clases?
+La relación de agregación es una forma específica de asociación que representa una relación todo/parte. Indica que una clase (el todo) está compuesta de otras clases (las partes), pero las partes pueden existir independientemente del todo.
+
+Características:
+
+Relación débil: La vida de los objetos parte no depende del objeto todo. Si el objeto todo es destruido, los objetos parte pueden seguir existiendo.
+Transparencia: Normalmente se representa con un diamante vacío en UML en el lado del todo.
+
+3. ¿Qué es la relación de composición entre clases?
+La relación de composición es una forma más fuerte de agregación. Representa una relación todo/parte donde la vida de los objetos parte depende completamente del objeto todo. Si el objeto todo es destruido, los objetos parte también son destruidos.
+
+Características:
+
+Relación fuerte: La vida del objeto parte está completamente vinculada al objeto todo.
+Transparencia: Se representa con un diamante lleno en UML en el lado del todo.
